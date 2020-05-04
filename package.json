@@ -1,0 +1,30 @@
+{
+    "name": "py-one-monokai",
+    "displayName": "Py One Monokai Theme",
+    "description": "One dark Monokai Theme for Python",
+    "version": "0.0.1",
+    "publisher": "csying",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Py One Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PyOneMonokai.json"
+            }
+        ]
+    },
+    "keywords": [
+        "Vscode",
+        "Theme",
+        "Monokai",
+        "Python"
+    ],
+    "license": "MIT"
+}
