@@ -22,7 +22,8 @@
         "string.comment"
       ],
       "settings": {
-        "foreground": "#778190"
+        "foreground": "#778190",
+        "fontStyle": "italic"
       }
     },
     {
@@ -177,7 +178,7 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#00E676"
+        "foreground": "#98c379"
       }
     },
     {
@@ -187,14 +188,15 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#039BE5"
+        "foreground": "#61afef"
       }
     },
     {
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#fad089"
+        "fontStyle": "italic",
+        "foreground": "#e5c08e"
       }
     },
     {
@@ -561,5 +563,5 @@
     "titleBar.inactiveBackground": "#282C34",
     "titleBar.inactiveForeground": "#6B717D"
   },
-  "name": "pyOneMonokai"
+  "name": "pyOneMonokaiX"
 }
